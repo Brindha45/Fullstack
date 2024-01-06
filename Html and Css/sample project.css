@@ -1,0 +1,90 @@
+h1{
+    font-size: xx-large;
+    color: gray;
+    margin-left: 200px;
+}
+.dropdown{
+    width: 100%;
+    background-color: rgb(232, 232, 30);
+    line-height: 40px;
+    display: inline-block;
+    justify-content: space-between;
+}
+a{
+    color:black;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: large;
+
+}
+h2{
+    font-size: x-large;
+    color: black;
+    margin-left: 200px;
+}
+p{
+    font-size: smaller;
+    color: black;
+    margin-left: 200px;
+}
+button{
+    margin-left: 1000px;
+    background-color: red;
+    color: white;
+
+}
+h3{
+    color: grey;
+    margin-left: 200px;
+}
+h4{
+    color: green;
+    font-size: xx-large;
+    margin-left: 200px;
+}
+h6{
+    margin-left: 200px;
+    font-size:small;
+    color:black;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    gap: 100px;
+
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h5{
+    margin-left: 200px;
+    font-size:small;
+    color:black;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    gap: 100px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer{
+    
+    background-color: rgb(232, 232, 30);
+   
+    display: inline-block;
+    justify-content: space-between;
+}
+h{
+    margin-left: 200px;
+    font-size:xx-large;
+    color:black;  
+    margin-bottom: 40px;
+}
